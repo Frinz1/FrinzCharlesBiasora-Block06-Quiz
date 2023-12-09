@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/et_b"
         android:layout_margin="20dp"
-        android:hint="Enter b "/>
+        android:hint="Enter number "/>
 
     <LinearLayout
         android:layout_width="match_parent"
