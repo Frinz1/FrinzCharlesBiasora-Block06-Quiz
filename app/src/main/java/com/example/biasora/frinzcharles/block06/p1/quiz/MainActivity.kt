@@ -8,7 +8,7 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() , View.OnClickListener {
 
-    lateinit var btnAdd : Button
+    lateinit var btnAddd : Button
     lateinit var btnSub : Button
     lateinit var btnMultiply : Button
     lateinit var btnDivision : Button
@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btnAdd = findViewById(R.id.btn_add)
+        btnAddd = findViewById(R.id.btn_add)
         btnSub = findViewById(R.id.btn_subtraction)
         btnMultiply = findViewById(R.id.btn_multiplication)
         btnDivision = findViewById(R.id.btn_division)
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
         etB = findViewById(R.id.et_b)
         resultTv = findViewById(R.id.result_tv)
 
-        btnAdd.setOnClickListener(this)
+        btnAddd.setOnClickListener(this)
         btnSub.setOnClickListener(this)
         btnMultiply.setOnClickListener(this)
         btnDivision.setOnClickListener(this)
